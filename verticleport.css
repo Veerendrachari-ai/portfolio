@@ -1,0 +1,478 @@
+*{
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 0;
+    
+}
+body{
+    background: black;
+    overflow: hidden;
+    height: 100dvh;
+    width: 100dvw;
+    @media (max-width:480px) {
+       overflow: scroll;
+    
+        
+    }
+
+
+}
+
+/*rgba(255,255,255,0.8);*/
+.side{
+    height: 90dvh;
+    width: 20dvw;
+   background: #111111;
+    
+    
+        
+      /*  background: linear-gradient(110deg, black 20%, #d3d3d3 74%);
+*/
+    box-shadow: 0 4px 30px white;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    
+    border: 3px outset gold;
+    border-radius: 16px;
+    overflow: hidden;
+    @media (max-width:480px) {
+        height: 80dvh;
+        width: 90dvw;
+
+        
+    }
+}
+/*.up{
+    border-radius:  150px;
+    height: 100px;
+    width: 250px;
+    background: linear-gradient(to right, #a8c0ff, #3f7cac);
+    transform: rotate(180deg);
+    position: relative;
+    top: -50px;
+   
+}*/
+.cir img{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+border: 3px inset gold;
+
+}
+.cir{
+    position: relative;
+left: 18%;
+top:1%;
+
+
+
+}
+.textbox{
+    position: absolute;
+    height: 245px;
+    width: 18%;
+    background:black;
+    border: 2px inset gold;
+
+display: flex;
+justify-content: center;
+align-items: center;
+top: 48%;
+left: 2.2%;
+border-radius: 16px;
+@media (max-width:480px) {
+    height: 28dvh;
+    width: 85dvw;
+    position: relative;
+    top: 280px;
+    
+}
+}
+.iconbox{
+    position: absolute;
+    height: 70px;
+    width: 94%;
+    top: 35.9%;
+    left: 2.5%;
+background: black;
+    border-radius: 16px;
+    border: 2px inset gold;
+display: flex;
+color: rgb(54, 240, 54);
+@media (max-width:480px) {
+    display: flex;
+    gap: 1rem;
+  top: 35%;
+    
+}
+}
+/*instagram on hover color change+ scale to 0.5 on hover*/
+.insta a{
+   
+    color: rgb(54, 240, 54);
+
+}
+.insta a:hover{
+    color: white;
+ 
+}
+.insta:hover{
+    transform: scale(0.5);
+    transition: 0.5s;
+}
+/*linked in on hover*/
+.linked a{
+   
+    color: rgb(54, 240, 54);
+
+}
+.linked a:hover{
+    color: white;
+ 
+}
+.linked:hover{
+    transform: scale(0.5);
+    transition: 0.5s;
+}
+
+.github:hover{
+    color: white;
+    transform: scale(0.5);
+    transition: 0.5s;
+
+}
+.linked{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+
+}
+.github{
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    @media (max-width:480px) {
+        left: 200px;
+    }
+
+}
+
+.word {
+
+font-size: small;
+font-family: "Dancing Script", serif;
+  font-optical-sizing : auto;
+  font-weight: 1;
+  font-style: normal;
+  color: rgb(54, 240, 54);
+
+}
+
+#email{
+    font-size: 15px;
+}
+.aboutme{
+    height: 90dvh;
+    width: 75dvw;
+    padding: 2px;
+    /*background: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);*/
+    background:  #111111;
+position: absolute;
+top: 3%;
+left:23%;
+box-shadow: 0 4px 30px white;
+backdrop-filter: blur(10px);
+border: 2px outset gold;
+border-radius: 16px;
+overflow-y: scroll;
+overflow-x: hidden;
+color:  rgb(54, 240, 54);
+@media (max-width:480px) {
+   height: 50dvh;
+   width: 90dvw;
+   top: 85%;
+   left: 25px;
+  
+}
+
+
+
+
+}
+
+.aboutme::-webkit-scrollbar{
+    width: 8px;
+    background-color: gray;
+    border-radius: 18px;
+   
+}
+.aboutme::-webkit-scrollbar-thumb{
+    background-color: rgb(54, 240, 54);
+    height: 1px;
+}
+.about{
+   display: flex;
+   justify-content: end;
+   gap: 1rem;
+ background: black;
+   height: 35px;
+   border-radius: 16px;
+  
+}
+#hi{
+    position: absolute;
+    top: 1.5%;
+    left: 3%;
+    color: rgb(54, 240, 54);
+
+}
+.about a{
+    text-decoration: none;
+    color: rgb(54, 240, 54);
+    @media (max-width:480px) {
+       display: none;
+        
+    }
+
+   
+
+}
+#veeru{
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 1px;
+
+    font-style: normal;
+}
+/*.line{
+    background: gold;
+    width: 98%;
+    height: 0.5px;
+    border-radius: 60%;
+    position: relative;
+    top: 10px;
+
+}*/
+.skills{
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top:15px;
+left: 1px;
+background: black;
+color: aliceblue;
+height: 35px;
+border-radius: 16px;
+
+
+
+}
+.skills h1{
+   position: relative;
+   left: 18px;
+   bottom: 2px;
+   color: rgb(54, 240, 54);
+
+}
+.job{
+    position:relative;
+    height: 120px;
+    width: 400px;
+    background: black;
+    border-radius: 16px;
+    top: 45px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    border:2px outset gold;
+    color: rgb(54, 240, 54);
+    @media (max-width:480px) {
+        display: none;
+        
+    }
+    
+
+}
+.job h1{
+    position: relative;
+    left: 50px;
+}
+.job2{
+    position:relative;
+    height: 120px;
+    width: 400px;
+    background: black;
+    border-radius: 16px;
+    bottom:75px;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    border:2px outset gold;
+    color: rgb(54, 240, 54);
+    @media (max-width:480px) {
+display: none;        
+    }
+
+}
+.job2 h1{
+    position: relative;
+    left: 50px;
+}
+
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+background-color: black;
+    height: 90%;
+    width: 30%;
+    left: 5px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px white;
+    border:2px inset gold
+}
+.img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+background-color: black;
+    height: 90%;
+    width: 30%;
+    left: 5px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px white;
+border: 2px inset gold;
+  
+}
+/*
+.line2{
+    background: gold;
+    width: 98%;
+    height: 1px;
+    border-radius: 60%;
+    position: relative;
+    bottom: 40px;
+}*/
+.skill2{
+    font-family: "Abril Fatface", serif;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  bottom:30px;
+left: 1px;
+background: black;
+color: rgb(54, 240, 54);
+
+height: 35px;
+border-radius: 16px;
+display: flex;
+align-items: center;
+
+}
+.web{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    @media (max-width:480px) {
+       gap: 1rem;
+    }
+}
+.weblanguage{
+    position: relative;
+    height: 100px;
+    width: 90px;
+    left:5%;
+    background: black;
+    border-radius: 16px;
+    border: 2px inset gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weblanguage2{
+    position: relative;
+    height: 100px;
+    width: 90px;
+    left:5%;
+    background: black;
+    border-radius: 16px;
+    border: 2px inset gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weblanguage3{
+    position: relative;
+    height: 100px;
+    width: 90px;
+    left:5%;
+    background: black;
+    border-radius: 16px;
+    border: 2px inset gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+.line3{
+    background: gold;
+    width: 98%;
+    height: 1px;
+    border-radius: 60%;
+    position: relative;
+   top:5%;
+}*/
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.college{
+    position: relative;
+    height: 100px;
+    width: 90px;
+    top: 40px;
+    background: black;
+    border-radius: 16px;
+    border: 2px inset gold;
+   
+    left: 8%;
+    display: flex;
+    align-items: center;
+    color: rgb(54, 240, 54);
+
+}
+.Portfolio{
+    position: relative;
+    height: 100px;
+    width: 90px;
+    top: 40px;
+    left: 8%;
+    background: black;
+    border-radius: 16px;
+    border: 2px inset gold;
+    display: flex;
+    align-items: center;
+    color: rgb(54, 240, 54);
+}
+.skill3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    top: 10px;
+  left: 1px;
+  background: black;
+  color: rgb(54, 240, 54);
+  
+  height: 35px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  @media (max-width:480px) {
+   gap: 1rem;
+}
+}
